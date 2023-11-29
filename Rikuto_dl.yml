@@ -1,0 +1,7 @@
+name: '[Rikuto_dl]'
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+prefix: C:\Users\acoust\anaconda3\envs\[Rikuto_dl]
+
