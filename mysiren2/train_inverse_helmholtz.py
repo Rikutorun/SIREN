@@ -15,8 +15,8 @@ from scipy.io import loadmat
 p = configargparse.ArgumentParser()
 p.add('-c', '--config_filepath', required=False, is_config_file=True, help='Path to config file.')
 
-p.add_argument('--logging_root', type=str, default='./logs', help='root for logging')
-p.add_argument('--experiment_name', type=str, required=False, default = './experimentfwidebug', 
+p.add_argument('--logging_root', type=str, default='./log_int', help='root for logging')
+p.add_argument('--experiment_name', type=str, required=False, default = './test_lineintegral', 
                help='Name of subdirectory in logging_root where summaries and checkpoints will be saved.')
 # General training options
 p.add_argument('--batch_size', type=int, default=32)
